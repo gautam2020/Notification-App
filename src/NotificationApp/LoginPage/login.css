@@ -1,10 +1,35 @@
 .login-band {
-  background-color: lightslategrey;
+  background-color: dodgerblue;
   padding-left: 44%;
   padding-top: 1%;
   padding-bottom: 1%;
 }
 
-.add-notification {}
+.login-title{
+  color: white;
+}
+.add-notification {
+  border: 29px solid whitesmoke;
+  margin-left: 35%;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  border-radius: 4%;
+  float: left;
+}
 
-.upcoming-notification {}
+.upcoming-notification {
+  border: 29px solid whitesmoke;
+  margin-right: 35%;
+  margin-top: 10%;
+  background-color: whitesmoke;
+  border-radius: 4%;
+  float: right;
+}
+
+.login-btn {
+  margin-left: 92%;
+  background-color: whitesmoke;
+  margin-right: 2%;
+  padding: 2%;
+  padding-right: 5%;
+}
