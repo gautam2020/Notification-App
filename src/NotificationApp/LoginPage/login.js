@@ -1,7 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import LoginBtn from '../../NotificationApp/LoginBtn/loginbtn'
 import './login.css'
 class Login extends React.Component {
+  renderLoginBtn(){
+    return <LoginBtn/>
+  }
+
   render() {
     return (<div>
       <div className="login-band">
@@ -11,8 +15,8 @@ class Login extends React.Component {
       </div>
       <div>
         <div>
-        <div className="login-btn">Login</div>
-      </div>
+          {this.renderLoginBtn()}
+        </div>
         <div className="add-notification">
           Add Notification</div>
         <div className="upcoming-notification">
