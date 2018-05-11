@@ -1,0 +1,17 @@
+#notification-page-sidebar {
+  color: white;
+  background-color: #a9a4bf;
+}
+
+.notification-page-top-band {
+  padding-top: 2em;
+  background-color: gainsboro;
+  padding-bottom: 4em;
+  margin-left: 15em;
+}
+
+.notification-page-title {
+  font-size: 43px;
+  font-family: cursive;
+  margin-left: 70%;
+}

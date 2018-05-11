@@ -1,0 +1,35 @@
+#items-sidebar-icon {
+  font-size: 2em;
+  margin-top: 5%;
+  margin-left: 29%;
+  align-items: center;
+  color: darksalmon;
+}
+
+#items-sidebar-text {
+  font-size: 130%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+#items-sidebar-text-add-task{
+  font-size: 130%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+#items-sidebar-text-set-reminders{
+  font-size: 130%;
+  margin-left: 14%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+#items-sidebar-text-view-notifications{
+  font-size: 130%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
