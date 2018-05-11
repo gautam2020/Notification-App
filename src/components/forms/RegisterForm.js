@@ -1,5 +1,4 @@
 import React from 'react';
-import {Form, Button} from 'semantic-ui-react';
 import axios from 'axios';
 
 class RegisterForm extends React.Component {
@@ -21,7 +20,7 @@ class RegisterForm extends React.Component {
   }
 
   render() {
-    return (<form class="ui form" onSubmit={this.onSubmit}>
+    return (<form class="ui container form" onSubmit={this.onSubmit}>
       <div class="field">
         <label>User Name</label>
         <input type="text" placeholder="User Name"/>

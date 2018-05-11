@@ -1,5 +1,4 @@
 import React from 'react'
-import InlineErrorCss from './InlineError.css'
 
 class InlineError extends React.Component{
   render(){
