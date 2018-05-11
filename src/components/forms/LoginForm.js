@@ -1,11 +1,10 @@
 import React from 'react';
 import {Form, Button} from 'semantic-ui-react';
-import LoginCss from './LoginForm.css'
 import Validator from 'validator';
 import InlineError from '../messages/InlineError'
 import axios from 'axios'
 import config from '../../config/config.json'
-import {setLocalStorage,getToken}  from  '../../lib/utils/auth.js'
+import {setLocalStorage}  from  '../../lib/utils/auth.js'
 
 class LoginForm extends React.Component {
 

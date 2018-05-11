@@ -1,6 +1,5 @@
 import React from 'react';
 import RegisterForm from '../forms/RegisterForm'
-import {Form, Button} from 'semantic-ui-react';
 class RegisterPage extends React.Component{
   render(){
     return(

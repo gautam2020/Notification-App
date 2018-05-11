@@ -20,28 +20,28 @@ class RegisterForm extends React.Component {
   }
 
   render() {
-    return (<form class="ui container form" onSubmit={this.onSubmit}>
-      <div class="field">
+    return (<form className="ui container form" onSubmit={this.onSubmit}>
+      <div className="field">
         <label>User Name</label>
         <input type="text" placeholder="User Name"/>
       </div>
 
-      <div class="field">
+      <div className="field">
         <label>Name</label>
         <input type="text" placeholder="Name"/>
       </div>
 
-      <div class="field">
+      <div className="field">
         <label>Password</label>
         <input type="password" placeholder="Enter password"/>
       </div>
 
-      <div class="field">
+      <div className="field">
         <label>Confirm Password</label>
         <input type="password" placeholder="Re-Enter password"/>
       </div>
 
-      <button class="ui button" type="submit">Submit</button>
+      <button className="ui button" type="submit">Submit</button>
     </form>);
   }
 }
